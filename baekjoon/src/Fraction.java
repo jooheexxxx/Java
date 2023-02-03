@@ -4,6 +4,22 @@ public class Fraction {
     public static void main(String args[]) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(br.readLine());
+
+        // 규칙 찾기
+        // 1/1
+
+        // 1/2
+        // 2/1
+
+        // 3/1
+        // 2/2
+        // 1/3
+
+        // 1/4
+        // 2/3
+        // 3/2
+        // 4/1
+
         int sum = 0;
         int x;
         int y;
