@@ -1,3 +1,5 @@
+// 미완료 (5와 3 빼기 반복을 통해 풀어보려 했으나 실패)
+
 import java.io.*;
 
 public class SugarOrg {
