@@ -6,11 +6,11 @@ public class PrimeNumber3 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
         StringTokenizer st = new StringTokenizer(str);
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(); // 시간 효율 증대를 위해 사용
         int m = Integer.parseInt(st.nextToken());
         int n = Integer.parseInt(st.nextToken());
     
-        for(int i=m;i<=n;i++){ // 1 ≤ M ≤ N ≤ 1,000,000
+        for(int i=m;i<=n;i++){ // 1 ≤ M ≤ N ≤ 1,000,000 
             List<Integer> temp = new ArrayList<>();          
 
             for(int j=2;j<=n;j++){ 
