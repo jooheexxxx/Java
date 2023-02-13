@@ -1,3 +1,5 @@
+// 시간 초과
+
 import java.io.*;
 import java.util.*;
 
@@ -13,7 +15,7 @@ public class PrimeNumber3 {
         for(int i=m;i<=n;i++){ // 1 ≤ M ≤ N ≤ 1,000,000 
             List<Integer> temp = new ArrayList<>();          
 
-            for(int j=2;j<=n;j++){ 
+            for(int j=2;j<=n;j++){
                 if(i%j==0){                  
                     temp.add(j);
                 }
