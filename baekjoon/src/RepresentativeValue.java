@@ -10,7 +10,6 @@ public class RepresentativeValue {
             int num = Integer.parseInt(br.readLine());
             arr[i] = num;
         }
-        //System.out.println(Arrays.toString(arr));
         // 오름차순 변경
         int t;        
         for(int i=0;i<5;i++){
